@@ -1,4 +1,4 @@
-# minesweeper-react-redux-ts
+# minesweeper-react-redux-ts (IN PROGRESS)
 - React (Hooks, Router)
 - Redux (Redux Toolkit)
 - TypeScript
