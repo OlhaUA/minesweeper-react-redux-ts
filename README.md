@@ -4,5 +4,5 @@
 - TypeScript
 - TDD (Jest)
 - Storybook
-- Styled Components
+- Styled Components, @emotion/styled
 - QA & CI/CD
