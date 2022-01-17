@@ -67,7 +67,7 @@ describe('Field Generator', () => {
       const flatField = field.flat();
 
       const cellsWithBombs = flatField.filter(cellWithBomb);
-      const emptyCells = flatField.filter((cell: Cell) => cell === empty);
+      const emptyCells = flatField.filter((cell: Cell) => cell === 2);
 
       expect(cellsWithBombs).toHaveLength(2);
       expect(emptyCells).toHaveLength(2);
