@@ -10,9 +10,11 @@
     "watch": "webpack --watch --mode=development",
     "start": "webpack serve --mode=development",
     "test": "jest",
+    "test:mutate": "stryker run",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token=b8646504a4d6"
+    "chromatic": "npx chromatic",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -40,8 +42,12 @@
     "@storybook/builder-webpack5": "^6.4.12",
     "@storybook/manager-webpack5": "^6.4.12",
     "@storybook/react": "^6.4.12",
+    "@stryker-mutator/core": "^5.6.0",
+    "@stryker-mutator/jest-runner": "^5.6.0",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
+    "@testing-library/react-hooks": "^7.0.2",
+    "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.4.0",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
@@ -57,6 +63,7 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "html-webpack-plugin": "^5.5.0",
+    "husky": "^7.0.4",
     "jest": "^27.4.7",
     "prettier": "^2.5.1",
     "style-loader": "^3.3.1",
